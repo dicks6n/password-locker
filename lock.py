@@ -51,7 +51,7 @@ def main():
 	print('Hello! Welcome to Password Locker.')
 	while True:
 		print(' ')
-		print("-"*60)
+		print("-"*80)
 		print('Use these codes to navigate: \n ca-Create an Account \n li-Log In \n ex-Exit')
 		short_code = input('Enter a choice: ').lower().strip()
 		if short_code == 'ex':

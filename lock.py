@@ -1,5 +1,5 @@
 import pyperclip
-
+from creden import User, Credential
 
 def create_user(fname,lname,password):
 	'''
@@ -39,3 +39,29 @@ def save_credential(credential):
 	Function to save a newly created credential
 	'''
 	Credential.save_credentials(credential)
+
+def display_credentials(user_name):
+	'''
+	Function to display credentials saved by a user
+	'''
+	return Credential.display_credentials(user_name)
+
+def main():
+	print(' ')
+	print('Hello! Welcome to Password Locker.')
+	while True:
+		print(' ')
+		print("-"*60)
+		print('Use these codes to navigate: \n ca-Create an Account \n li-Log In \n ex-Exit')
+		short_code = input('Enter a choice: ').lower().strip()
+		if short_code == 'ex':
+			break
+
+
+
+
+
+
+
+if __name__ == '__main__':
+	main()

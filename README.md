@@ -1,3 +1,5 @@
+## Author
+
 ## Built By [Dickson Macharia](https://github.com/dicks6n/password-locker)
 
 ## Description
@@ -24,5 +26,17 @@ Password Locker is a terminal run python application that allows users to store 
 ### Cloning
 * In your terminal:
         
-        $ git clone https://github.com/dicks6n/Password-Locker/
+        * $ git clone https://github.com/dicks6n/Password-Locker/
+
         $ cd Password
+
+## Testing the Application
+* To run the tests for the class file:
+
+        $ python3.7 test_creden.py
+        
+## Technologies Used
+* Python3.7
+
+## license
+MIT &copy;2019 [Dickson Macharia]

@@ -39,4 +39,4 @@ Password Locker is a terminal run python application that allows users to store 
 * Python3.7
 
 ## license
-MIT &copy;2019 [Dickson Macharia]
+GNU GENERAL PUBLIC LICENSE &copy;2019 [Dickson Macharia]

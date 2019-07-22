@@ -1,4 +1,4 @@
-## Author
+   ## PASSWORD-LOCKER
 
 ## Built By [Dickson Macharia](https://github.com/dicks6n/password-locker)
 

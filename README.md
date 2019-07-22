@@ -13,3 +13,16 @@ Password Locker is a terminal run python application that allows users to store 
 | Display a list of credentials | **Enter: dc** | Prints a list of saved credentials |
 | Display prompt for which credential to copy | **Enter: copy** | Enter the site name of the credential you wish to copy. |
 | Exit application | **Enter: ex** | Exit the current navigation stage |
+
+## SetUp / Installation Requirements
+### Prerequisites
+* python3.7
+* pip
+* pyperclip
+
+
+### Cloning
+* In your terminal:
+        
+        $ git clone https://github.com/dicks6n/Password-Locker/
+        $ cd Password
